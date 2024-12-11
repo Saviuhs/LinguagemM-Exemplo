@@ -1,4 +1,11 @@
-//Adicionando código genérico em Linguagem M para estudos
+# Código em Linguagem M
+Este repositório contém um exemplo genérico de código em Linguagem M usado no Power Query.  
+**Destaques**:
+- Estrutura de transformação de dados.
+- Uso de tipos de dados genéricos.  
+
+**Como Usar**:
+Substitua os valores genéricos pelas informações do seu projeto.
 
     // SUBSTITUINDO VALOR
     #"VALOR SUBSTITUIDO" = Table.ReplaceValue(#"TIPO ALTERADO", "?", "45", Replacer.ReplaceText, {"COLUNA2"}),
